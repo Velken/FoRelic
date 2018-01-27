@@ -1,4 +1,4 @@
-package FoRelic.relics;
+package forelic.relics;
 
 import basemod.abstracts.CustomRelic;
 import com.badlogic.gdx.Gdx;

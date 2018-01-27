@@ -1,19 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>FoRelic</groupId>
-    <artifactId>FoRelic</artifactId>
+    <groupId>forelic</groupId>
+    <artifactId>forelic</artifactId>
     <version>0.1.0</version>
 
     <name>ForbiddenReliquary</name>
     <description>Do you want to be cursed?</description>
-
-    <properties>
-        <path>$userprofile%</path>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -26,7 +19,7 @@
         <dependency>
             <groupId>basemod</groupId>
             <artifactId>basemod</artifactId>
-            <version>1.2.1</version>
+            <version>1.3.3</version>
             <scope>system</scope>
             <systemPath>${basedir}/../_ModTheSpire/mods/BaseMod.jar</systemPath>
         </dependency>
@@ -46,5 +39,4 @@
             </plugin>
         </plugins>
     </build>
-    
 </project>
