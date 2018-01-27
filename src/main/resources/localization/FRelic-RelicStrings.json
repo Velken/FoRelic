@@ -1,0 +1,9 @@
+{
+    "CursedPearl": {
+        "NAME": "Cursed Pearl",
+        "FLAVOR": "Velken Iakov",
+        "DESCRIPTIONS": [
+            "Whenever you take damage, 50% chance to gain or lose Strength"
+        ]
+    }
+}
